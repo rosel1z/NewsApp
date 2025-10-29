@@ -1,8 +1,10 @@
 {
+
   "expo": {
     "name": "NewsApp",
     "slug": "NewsApp",
     "version": "1.0.0",
+       "web": { "bundler": "webpack" },
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "newsapp",
@@ -11,6 +13,7 @@
     "ios": {
       "supportsTablet": true
     },
+    
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#E6F4FE",
@@ -43,6 +46,19 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "98c481f3-bc03-4f23-ab7d-74f3a28e3f5e"
+      }
+    },
+    "owner": "rosel1z1",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/98c481f3-bc03-4f23-ab7d-74f3a28e3f5e"
     }
   }
 }
